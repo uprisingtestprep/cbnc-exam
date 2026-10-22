@@ -1,0 +1,2502 @@
+[
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What are the three features of typical angina?",
+  "back": "Substernal discomfort, provoked by exertion or emotional stress, and relieved by rest or nitroglycerin within minutes. Two features is atypical angina; one or none is nonanginal chest pain."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "How is pretest probability of obstructive CAD estimated?",
+  "back": "From age, sex and the chest pain class (typical, atypical, nonanginal), then adjusted for risk factors such as diabetes and kidney disease. Tables derived from Diamond and Forrester are the classic basis."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What pretest probability range is called intermediate, and why does it matter?",
+  "back": "Roughly 15 to 85 percent. Testing changes the post-test probability most in this range, so it is where stress imaging is most useful."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the formula for post-test odds in Bayes theorem?",
+  "back": "Post-test odds = pretest odds x likelihood ratio. Convert back with probability = odds / (1 + odds)."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "How do you convert a pretest probability p to odds?",
+  "back": "Odds = p / (1 - p). A probability of 0.25 gives odds of 0.25 / 0.75 = 0.33."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Define LR+ and LR-.",
+  "back": "LR+ = sensitivity / (1 - specificity); LR- = (1 - sensitivity) / specificity. Neither changes with disease prevalence."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Sensitivity 88 percent and specificity 75 percent: what are LR+ and LR-?",
+  "back": "LR+ = 0.88 / 0.25 = 3.52. LR- = 0.12 / 0.75 = 0.16."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "With those LRs and a 50 percent pretest probability, what is the post-test probability after a positive and after a negative test?",
+  "back": "Positive: odds 3.52, probability 78 percent. Negative: odds 0.16, probability 14 percent."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Why is a positive stress MPI of limited value at 5 percent pretest probability?",
+  "back": "With LR+ 3.52 the post-test probability is only about 16 percent, so most positives are false. Testing low-risk patients mainly produces false positives."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Why does a negative test add little at 90 percent pretest probability?",
+  "back": "Residual probability stays high and the patient will likely go to angiography or treatment anyway, so the result rarely changes the plan."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Define sensitivity.",
+  "back": "TP / (TP + FN): the fraction of patients with disease who have a positive test."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Define specificity.",
+  "back": "TN / (TN + FP): the fraction of patients without disease who have a negative test."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Define positive predictive value.",
+  "back": "TP / (TP + FP): the fraction of test-positive patients who truly have disease. It rises with prevalence."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Define negative predictive value.",
+  "back": "TN / (TN + FN): the fraction of test-negative patients who truly lack disease. It falls as prevalence rises."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "How do predictive values change when prevalence falls?",
+  "back": "PPV falls and NPV rises, while sensitivity and specificity stay the same."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Calculate PPV: 1,000 patients, 20 percent prevalence, sensitivity 90 percent, specificity 80 percent.",
+  "back": "TP = 180, FN = 20, TN = 640, FP = 160. PPV = 180 / 340 = 52.9 percent."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Same group (20 percent prevalence, sens 90, spec 80): what is the NPV?",
+  "back": "NPV = 640 / (640 + 20) = 640 / 660 = 97.0 percent."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What is post-test referral (verification) bias?",
+  "back": "Only patients with abnormal scans go to angiography, which inflates sensitivity and deflates specificity in the reported data."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the normalcy rate?",
+  "back": "The fraction of patients with a low pretest likelihood of CAD (under 5 percent) who have a normal scan. It substitutes for specificity when normals are not verified by angiography."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What does an ROC curve plot, and what does AUC 0.5 mean?",
+  "back": "Sensitivity against 1 minus specificity across thresholds. An AUC of 0.5 is chance; 1.0 is perfect discrimination."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What is spectrum bias?",
+  "back": "Test performance looks better when studied in patients with severe disease and clear controls than in a mixed clinical population."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the Duke treadmill score formula?",
+  "back": "Exercise time in minutes - (5 x maximal ST deviation in mm) - (4 x angina index). The angina index is 0 none, 1 angina not limiting, 2 angina limiting the test."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What are the Duke score risk groups?",
+  "back": "Low risk is +5 or higher, intermediate is -10 to +4, high is -11 or lower."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Compute the Duke score: 9 minutes, 2 mm ST depression, non-limiting angina.",
+  "back": "9 - 10 - 4 = -5, intermediate risk."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Compute the Duke score: 6 minutes, 3 mm ST depression, angina stops the test.",
+  "back": "6 - 15 - 8 = -17, high risk."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Which resting ECG findings steer a patient to vasodilator rather than exercise stress?",
+  "back": "Left bundle branch block, ventricular pacing, and preexcitation (WPW). They make ST analysis unreliable and LBBB or pacing can produce an artifactual septal defect with exercise."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What are the 2013 ACC appropriate use ratings and scores?",
+  "back": "Appropriate is 7 to 9, may be appropriate is 4 to 6, rarely appropriate is 1 to 3."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "A rarely appropriate study is ordered. What does that mean?",
+  "back": "It is not a ban. The study may still proceed with documented reasoning, but it is not expected to improve care for that scenario."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Best test for an intermediate-risk patient who cannot exercise and has stable chest pain?",
+  "back": "Vasodilator or dobutamine stress imaging, such as MPI. The exercise ECG would not be feasible."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "A low-risk patient has an interpretable ECG and good functional capacity. What is the best approach?",
+  "back": "An exercise ECG alone or no testing. Stress MPI is rarely appropriate."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "How should a CCTA stenosis of about 50 percent be handled?",
+  "back": "It is intermediate, so functional testing such as stress MPI is appropriate to decide whether it causes ischemia."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Does a CAC score of zero exclude CAD?",
+  "back": "No. It lowers the chance of obstructive disease in a low-risk patient but does not exclude noncalcified plaque."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "When is rest MPI appropriate in acute chest pain?",
+  "back": "When ECG is nondiagnostic, the initial troponin is negative, and the scan can be done during pain or within a few hours of it. A normal scan has NPV above 95 percent for infarction."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What do you do with a stable patient after myocardial infarction is ruled out and who has no high-risk features?",
+  "back": "Stress MPI is appropriate for risk stratification."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Is stress testing appropriate in an unstabilized acute coronary syndrome?",
+  "back": "No. These patients need treatment, and often angiography, not stress."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Name absolute contraindications to stress testing.",
+  "back": "Acute MI within 2 days, unstabilized unstable angina, uncontrolled symptomatic arrhythmia, symptomatic severe aortic stenosis, decompensated heart failure, acute pulmonary embolism, acute myocarditis or pericarditis, and acute aortic dissection."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What resting BP is a relative contraindication to exercise?",
+  "back": "Systolic above 200 or diastolic above 110 mm Hg."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What physical exam sign set suggests severe aortic stenosis?",
+  "back": "A harsh crescendo-decrescendo systolic murmur with a soft second heart sound. Exercise in the symptomatic patient is contraindicated."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "First step in preoperative evaluation for noncardiac surgery?",
+  "back": "Emergency surgery proceeds without testing. Otherwise estimate MACE risk; below 1 percent needs no testing."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "A patient has elevated surgical risk and can climb two flights of stairs. What next?",
+  "back": "Functional capacity of 4 METs or more means proceed to surgery without further testing."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "When is preoperative stress testing reasonable?",
+  "back": "Elevated surgical risk, functional capacity under 4 METs or unknown, and the result would change management."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "New heart failure with no known CAD: what is the role of MPI?",
+  "back": "Appropriate for ischemic evaluation, and it also gives ejection fraction, volumes and viability information."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Which agents assess viability when revascularization is considered?",
+  "back": "Rest-redistribution Tl-201, rest-delayed Tc-99m sestamibi, and F-18 FDG PET."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Is MPI appropriate within 5 years of bypass surgery in an asymptomatic patient?",
+  "back": "No, it is rarely appropriate. A new symptom changes that to appropriate."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "List the steps to decide whether an ordered test is appropriate.",
+  "back": "Is the patient stable; what is the clinical question; will the result change management; is a simpler test enough; are the stress and tracer right; was a recent comparable test done."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the standard adenosine infusion for SPECT stress?",
+  "back": "140 mcg/kg/min for 6 minutes, with the radiotracer injected at the end of the third minute."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the regadenoson dose and how is it given?",
+  "back": "A fixed 0.4 mg (5 mL) IV bolus over about 10 seconds, with no weight adjustment, followed by a 5 mL saline flush."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "When is the radiotracer injected after regadenoson?",
+  "back": "About 10 to 20 seconds after the saline flush, because hyperemia lasts only a few minutes."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What receptor does regadenoson target and why does that matter?",
+  "back": "It is a selective A2A agonist, so AV block and bronchospasm (A1 and A2B effects) are less common than with adenosine."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Why does adenosine cause AV block and bronchospasm?",
+  "back": "It also acts on A1 receptors in the AV node and A2B receptors in the bronchi."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the dipyridamole stress dose?",
+  "back": "0.142 mg/kg/min over 4 minutes (0.56 mg/kg total), with tracer 3 to 5 minutes after the infusion ends."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "How does dipyridamole produce vasodilation?",
+  "back": "It blocks reuptake and breakdown of endogenous adenosine, raising interstitial adenosine."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What reverses vasodilator side effects?",
+  "back": "Aminophylline 50 to 250 mg IV."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the dobutamine stress ramp?",
+  "back": "Start at 5 mcg/kg/min, then 10, 20, 30 and 40 mcg/kg/min at 3 minute stages."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What is added if dobutamine alone does not reach target heart rate?",
+  "back": "Atropine in 0.25 to 0.5 mg increments, up to 1 mg total."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "When should dobutamine stress be avoided?",
+  "back": "With uncontrolled hypertension, significant ventricular arrhythmia, aortic dissection or an unstable aneurysm."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the target heart rate for an adequate exercise or dobutamine study?",
+  "back": "85 percent of age predicted maximum heart rate (220 minus age)."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "A patient has LBBB and can walk well. What stressor do you choose?",
+  "back": "A vasodilator without exercise, because exercise or dobutamine can cause a false septal defect."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Which stressor is preferred for a patient with active wheezing who cannot take a vasodilator?",
+  "back": "Dobutamine."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Which vasodilator is usually chosen for mild to moderate asthma without active wheezing?",
+  "back": "Regadenoson."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "How long should caffeine be held before regadenoson or adenosine?",
+  "back": "At least 12 hours, including decaffeinated products and chocolate."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "How long should theophylline be held before vasodilator stress?",
+  "back": "At least 48 hours."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "How long should oral dipyridamole be held before adenosine or regadenoson?",
+  "back": "At least 48 hours, since it intensifies and prolongs the adenosine effect."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "A patient drank coffee this morning before a regadenoson study. What is the risk?",
+  "back": "A false negative study, because caffeine blocks adenosine receptors; reschedule or flag the risk."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "List contraindications to adenosine or dipyridamole stress.",
+  "back": "Second or third degree AV block or sinus node dysfunction without a pacemaker, active bronchospasm, systolic pressure below about 90 mmHg, and hypersensitivity."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What safety warning does regadenoson carry besides AV block?",
+  "back": "A seizure risk, which matters in patients with seizure history or on drugs that lower the threshold."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "A treadmill test ends at 70 percent of maximum predicted heart rate with no ST change or symptoms. What is the usual next step?",
+  "back": "Convert to a vasodilator study, with the tracer given during the vasodilator."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "How long should the patient keep exercising after tracer injection?",
+  "back": "About 1 minute with Tc-99m agents or thallium, so uptake occurs while flow is high."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Why add low level exercise to a vasodilator study?",
+  "back": "It reduces side effects, lowers liver and gut activity and improves image quality."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "When should low level exercise NOT be combined with a vasodilator?",
+  "back": "With LBBB or a paced rhythm."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What are the half-life and photon energy of Tc-99m?",
+  "back": "6.0 hours and 140 keV."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What are the half-life and emissions of Tl-201?",
+  "back": "73 hours, with mercury x-rays of 69 to 83 keV."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the first pass extraction of thallium compared with the technetium agents?",
+  "back": "About 85 percent, versus about 60 percent for sestamibi and 50 percent for tetrofosmin."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What is redistribution and why is it clinically useful?",
+  "back": "Thallium washes out of normal myocardium and refills hypoperfused but viable regions over hours, which supports viability imaging and single injection rest imaging."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Why do Tc-99m agents need two injections for rest and stress?",
+  "back": "They do not redistribute appreciably, so the image shows flow at the moment of injection."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the half-life of Rb-82 and how is it supplied?",
+  "back": "About 76 seconds, from a Sr-82 generator (half-life 25.5 days) replaced about every 4 weeks."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What are the Sr-82 and Sr-85 breakthrough limits for Rb-82?",
+  "back": "0.02 microcuries of Sr-82 and 0.2 microcuries of Sr-85 per millicurie of Rb-82."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the half-life of N-13 ammonia and what does it require?",
+  "back": "About 10 minutes, and an on-site cyclotron."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Why can F-18 flurpiridaz be used with exercise stress?",
+  "back": "Its 110 minute half-life lets the tracer be injected at peak exercise, and it has the shortest positron range of the perfusion agents."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Is F-18 FDG a perfusion tracer?",
+  "back": "No. It is a glucose analog used for viability and inflammation imaging."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What is a typical one-day Tc-99m dose pair?",
+  "back": "About 8 to 12 mCi first and 24 to 36 mCi second, with the second at least three times the first."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the usual thallium stress dose?",
+  "back": "2.5 to 3.5 mCi (92 to 130 MBq), with about 1 mCi at reinjection."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Compute the Tc-99m activity left after 6 hours from a 100 mCi start.",
+  "back": "One half-life has passed, so 100 x 0.5 = 50 mCi."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "How do you compute activity after a decay time t?",
+  "back": "A = A0 x 0.5 raised to the power (t divided by half-life), using the same time units."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Rank the approximate effective doses of common perfusion studies.",
+  "back": "N-13 ammonia about 2 mSv, Rb-82 about 3 to 4 mSv, Tc-99m one day about 9 to 11 mSv, and Tl-201 at 3 mCi about 14 mSv or more."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "Which common SPECT protocol gives the highest radiation dose?",
+  "back": "Dual isotope."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "When is stress only imaging appropriate?",
+  "back": "When the patient is low risk, the stress images are normal, and attenuation correction or prone imaging makes a normal result reliable."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "When is stress only a poor choice?",
+  "back": "With known prior infarction, a likely fixed defect, or a viability question."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the usual sequence in thallium stress protocols?",
+  "back": "Stress first, redistribution imaging at 3 to 4 hours, then optional reinjection and a 24 hour image."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What are the drawbacks of dual isotope imaging?",
+  "back": "Higher dose, technetium down scatter into the thallium window and poorer thallium image quality."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What patient preparation does FDG viability imaging need?",
+  "back": "A glucose load or hyperinsulinemic euglycemic clamp so the heart uses glucose, with careful insulin management in diabetics."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What does a perfusion and FDG mismatch mean?",
+  "back": "Reduced perfusion with preserved FDG uptake, indicating hibernating viable myocardium."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What is myocardial flow reserve and what value is commonly abnormal?",
+  "back": "Stress flow divided by rest flow; below about 2.0 is commonly abnormal."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What are the main PET advantages over SPECT?",
+  "back": "Higher resolution, reliable attenuation correction, fewer equivocal studies, lower dose, speed and absolute flow quantitation."
+ },
+ {
+  "domain": "selection_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the best test for serial, reproducible LVEF during cardiotoxic chemotherapy?",
+  "back": "Equilibrium radionuclide ventriculography (MUGA) with Tc-99m labeled red cells."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "How long before a vasodilator stress study should caffeine be held?",
+  "back": "At least 12 hours, including coffee, tea, cola and energy drinks. Decaffeinated coffee still contains some caffeine."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "How long is theophylline held before a vasodilator study when the clinical situation allows?",
+  "back": "About 48 hours, because it is a methylxanthine that blocks adenosine receptors."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Why must dipyridamole be held for at least 24 hours before an adenosine study?",
+  "back": "Dipyridamole blocks adenosine reuptake and potentiates adenosine, which can cause profound bradycardia or heart block at standard adenosine doses."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What is the target heart rate for exercise or dobutamine stress?",
+  "back": "At least 85 percent of the age-predicted maximum heart rate, where the maximum is estimated as 220 minus age."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Calculate the 85 percent target heart rate for a 58-year-old.",
+  "back": "Maximum is 220 - 58 = 162; 0.85 x 162 = 137.7, so about 138 beats per minute."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "A patient on a beta blocker reaches only 77 percent of predicted maximum heart rate. What do you conclude?",
+  "back": "The test is submaximal and a negative result has reduced sensitivity. Add or convert to a vasodilator stress rather than calling it negative."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Why are beta blockers usually held 24 to 48 hours before a diagnostic exercise or dobutamine study?",
+  "back": "They blunt the heart rate and rate pressure product, so the patient may not reach target and ischemia may not be provoked."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Which resting-ECG drug effect makes exercise ST changes uninterpretable?",
+  "back": "Digoxin, which can cause ST depression that mimics ischemia."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What are the first four stages of the Bruce protocol?",
+  "back": "Each lasts 3 minutes: 1.7 mph at 10 percent, 2.5 mph at 12 percent, 3.4 mph at 14 percent, 4.2 mph at 16 percent."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "When is the radiotracer injected during exercise stress, and how long does exercise continue?",
+  "back": "At or near peak exercise, with exercise continuing about 1 minute after injection."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Write the Duke treadmill score formula.",
+  "back": "Exercise time in minutes - (5 x maximum ST deviation in mm) - (4 x angina index), with angina index 0 none, 1 non-limiting, 2 exercise-limiting."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Compute the Duke score for 9 minutes, 2 mm ST depression and limiting angina.",
+  "back": "9 - 10 - 8 = -9, which is intermediate risk."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What are the Duke score risk categories?",
+  "back": "Low risk +5 or higher, intermediate -10 to +4, high risk -11 or lower."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Name five absolute contraindications to exercise stress.",
+  "back": "Acute MI within 2 days, high-risk unstable angina, uncontrolled symptomatic arrhythmia, symptomatic severe aortic stenosis, decompensated heart failure; also acute PE, acute myocarditis or pericarditis, acute aortic dissection."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Give examples of relative contraindications to exercise testing.",
+  "back": "Left main stenosis, moderate valve stenosis, electrolyte abnormality, severe hypertension (about 200/110 mm Hg or higher), high-degree AV block, obstructive hypertrophic cardiomyopathy."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Name absolute indications to terminate exercise.",
+  "back": "More than 10 mm Hg systolic drop with ischemia signs, moderate to severe angina, neurologic symptoms, poor perfusion signs, sustained VT, ST elevation above 1 mm in leads without Q waves, equipment failure, or patient request."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Is more than 2 mm of horizontal ST depression an absolute or relative reason to stop exercise?",
+  "back": "Relative. It is a relative indication to stop, along with fatigue, wheezing, claudication, and a nonischemic systolic drop."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "A patient with left bundle branch block needs stress perfusion imaging. Which stress is preferred?",
+  "back": "A vasodilator, because exercise or fast heart rates can cause a septal defect from abnormal contraction timing, not coronary disease."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Why is low-level exercise added to vasodilator stress, and when is it avoided?",
+  "back": "It reduces side effects and subdiaphragmatic tracer activity. It is avoided in left bundle branch block."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What follows the regadenoson bolus, and when is the radiotracer injected?",
+  "back": "A 5 mL saline flush follows the bolus immediately, and the radiotracer is injected about 10 to 20 seconds after the flush."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "When is the tracer injected after regadenoson?",
+  "back": "10 to 20 seconds after the saline flush."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Which adenosine receptor does regadenoson target selectively, and what is the benefit?",
+  "back": "The A2A receptor, so it causes less atrioventricular block and bronchospasm than adenosine."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Which adenosine receptor subtypes cause bronchoconstriction and AV node slowing?",
+  "back": "A2B and A3 cause bronchoconstriction; A1 slows the sinoatrial and atrioventricular nodes."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What is the standard adenosine dose and duration?",
+  "back": "140 mcg/kg/min intravenous infusion over 6 minutes, or over 4 minutes in the abbreviated protocol."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "When is the tracer injected during a 6-minute adenosine infusion?",
+  "back": "At 3 minutes (the midpoint); in the 4-minute protocol, at 2 minutes. Infusion continues 2 to 3 minutes after injection."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Calculate the adenosine infusion rate and 6-minute total for an 80 kg patient.",
+  "back": "80 x 140 = 11,200 mcg/min = 11.2 mg/min; 11.2 x 6 = 67.2 mg total."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What is the half-life of adenosine and what does it mean clinically?",
+  "back": "Under 10 seconds, so side effects usually end within a minute or two of stopping the infusion."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What is the dipyridamole dose and when is the tracer injected?",
+  "back": "0.142 mg/kg/min over 4 minutes (0.568 mg/kg total), with tracer 3 to 5 minutes after the infusion ends."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Calculate the dipyridamole total dose for a 75 kg patient.",
+  "back": "0.568 x 75 = 42.6 mg (10.65 mg/min for 4 minutes)."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Why may dipyridamole side effects return after improving?",
+  "back": "Its effect is long because it raises endogenous adenosine, so aminophylline must be available and may be needed again."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "List the vasodilator contraindications.",
+  "back": "Second or third degree AV block or sinus node dysfunction without a pacemaker, active bronchospasm for adenosine and dipyridamole, systolic pressure under about 90 mm Hg, and recent caffeine or theophylline."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Describe the dobutamine stress protocol.",
+  "back": "Start 5 mcg/kg/min, increase every 3 minutes to 10, 20, 30 and 40 mcg/kg/min; add atropine 0.25 mg increments up to about 2 mg if target heart rate is not reached."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Calculate the dobutamine rate for a 70 kg patient at 20 mcg/kg/min.",
+  "back": "70 x 20 = 1,400 mcg/min = 1.4 mg/min."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "When is dobutamine chosen over a vasodilator?",
+  "back": "When vasodilators are contraindicated, such as active bronchospasm or recent methylxanthine use."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Name contraindications to dobutamine stress.",
+  "back": "Significant ventricular arrhythmia, severe uncontrolled hypertension, aortic dissection, severe aortic stenosis, obstructive hypertrophic cardiomyopathy, and LV thrombus."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What is the typical aminophylline reversal dose?",
+  "back": "50 to 250 mg by slow intravenous injection over 30 to 60 seconds, given at least 1 to 2 minutes after the tracer."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "A patient has a seizure after regadenoson. What do you give?",
+  "back": "Supportive care, airway protection and a benzodiazepine. Avoid aminophylline because it lowers the seizure threshold."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "A patient develops wheezing during adenosine. What do you do first?",
+  "back": "Stop the infusion and give inhaled albuterol; add aminophylline if wheezing persists."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What do you do for hypotension during vasodilator stress?",
+  "back": "Stop the agent, lay the patient supine with legs raised, give fluids, and add aminophylline if it does not recover."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What reverses dobutamine-induced ischemia or tachyarrhythmia?",
+  "back": "Intravenous esmolol or metoprolol."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What is the first step for almost any stress complication?",
+  "back": "Stop the stress agent, then treat the specific problem."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What are the signs and the management of tracer extravasation?",
+  "back": "Swelling, pain, resistance to the flush, or a hot spot at the site on the image. Stop, elevate the arm, apply a warm compress, document it, notify the physician, and reinject if needed."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "When does imaging start after Tl-201 stress injection, and when are redistribution images taken?",
+  "back": "Within about 10 to 15 minutes of injection, with redistribution images 3 to 4 hours later."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Why is Tc-99m sestamibi imaging delayed longer after vasodilator injection than after exercise?",
+  "back": "Liver and gut activity is higher after vasodilator, so about 45 to 60 minutes is needed versus about 15 to 30 minutes after exercise."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "In a one-day Tc-99m rest-stress protocol, how do the doses compare?",
+  "back": "The stress dose is about 3 times the rest dose to override residual rest activity, for example rest 8 to 12 mCi and stress 24 to 36 mCi."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What material forms the scintillation crystal of a standard gamma camera?",
+  "back": "Thallium-doped sodium iodide, NaI(Tl). It converts the photon's energy into visible light. A cardiac crystal is typically 3/8 inch (about 9.5 mm) thick."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What does the total pulse height from the photomultiplier tubes represent?",
+  "back": "The energy deposited by the photon. This is how the pulse height analyzer separates primary photons from scattered ones."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "How does the camera determine where a photon struck the crystal?",
+  "back": "From the relative signal strength in neighboring photomultiplier tubes (Anger positioning logic)."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Compute the 20 percent energy window for Tc-99m.",
+  "back": "10 percent of 140 keV is 14 keV, so the window runs from 126 to 154 keV, centered on the 140 keV photopeak."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Which Tl-201 emissions are used for imaging and what windows are typical?",
+  "back": "Mercury x-rays at about 70 to 80 keV (a 30 percent window on 70 keV is common) plus the 167 keV gamma ray (a 20 percent window)."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Why must Tl-201 rest images be acquired before Tc-99m stress injection in a dual isotope study?",
+  "back": "Higher-energy Tc-99m photons scatter down into the Tl-201 window and contaminate it, so the Tl-201 study is done first."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What is the trade-off between LEHR and LEGP collimators?",
+  "back": "LEHR has longer, narrower holes: better resolution, fewer counts. LEGP has shorter, wider holes: more counts, worse resolution."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What happens to spatial resolution as the heart moves farther from the collimator face?",
+  "back": "It gets worse. Keep the detector as close to the chest as possible, using an elliptical or body-contour orbit when available."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What does a photon that scatters in the patient do to the image if it is accepted?",
+  "back": "It carries wrong position information because it changed direction and lost energy, which blurs the image and lowers contrast."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What are the effects of an energy window set too wide?",
+  "back": "It accepts more scattered photons, lowering image contrast. A window shifted off the photopeak lowers counts and degrades uniformity."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "How does a CZT detector differ from a NaI(Tl) camera at the physics level?",
+  "back": "CZT converts photons directly to an electrical signal, with no scintillation crystal and no photomultiplier tubes."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Compare energy resolution of CZT and NaI(Tl) at 140 keV.",
+  "back": "CZT is about 5 to 6 percent. NaI(Tl) is roughly 9 to 10 percent. Better energy resolution means better scatter rejection."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What practical advantages does the high sensitivity of a dedicated cardiac CZT camera give?",
+  "back": "Acquisition in a few minutes, a reduced radiotracer dose at normal time, or a mix of the two."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What is the standard orbit for conventional Tc-99m cardiac SPECT?",
+  "back": "180 degrees, from 45 degrees right anterior oblique to 45 degrees left posterior oblique, because the heart lies in the left anterior chest."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "In a dual-head camera in L mode, how far does each head rotate to cover a 180 degree orbit?",
+  "back": "90 degrees each, because the heads sit 90 degrees apart, so the arc is covered in half the time."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What are typical matrix and pixel size for cardiac SPECT?",
+  "back": "A 64 x 64 matrix with a pixel size of about 6 to 7 mm."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Why does moving from a 64 x 64 to a 128 x 128 matrix increase noise at the same counts?",
+  "back": "The same counts are divided among four times as many pixels, so each pixel has fewer counts and more statistical noise."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "A lab uses 25 seconds per projection at 8 mCi. What time keeps the same counts at 4 mCi?",
+  "back": "50 seconds. The dose is halved so time doubles: 8 x 25 equals 4 x 50, both 200."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What is the downside of lowering dose and lengthening acquisition?",
+  "back": "The longer study raises the chance of patient motion artifact."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What are typical ASNC one-day Tc-99m doses for the first and second injections?",
+  "back": "About 8 to 10 mCi (296 to 370 MBq) first, then about 25 to 30 mCi (925 to 1,110 MBq), so the second dose overwhelms residual activity from the first."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Typical delay between Tc-99m sestamibi or tetrofosmin injection and imaging?",
+  "back": "About 15 to 30 minutes after exercise, and about 45 to 60 minutes at rest or after vasodilator stress without exercise."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Which defect pattern does breast attenuation create and how do you reduce it?",
+  "back": "Lowered anterior and anterolateral counts. Position the breast consistently between rest and stress, and consider attenuation correction."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What is the benefit and a risk of prone imaging?",
+  "back": "It moves the diaphragm and abdominal organs away from the inferior wall and often removes inferior attenuation. It can create an apparent anterior defect, so it is usually a second set rather than a replacement."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "A SPECT/CT study shows a new anterior wall defect on corrected images only. What is the first thing to check?",
+  "back": "CT to emission registration. If the heart on CT overlies lung, the correction under-compensates and creates a false defect. Realign and re-review."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Why should attenuation-corrected and uncorrected images both be reviewed?",
+  "back": "Correction can create its own artifacts, and agreement between the two strengthens confidence in a finding."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "How do dual or triple energy window methods correct scatter?",
+  "back": "They sample counts in adjacent windows to estimate the scatter distribution under the photopeak and subtract it."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What does resolution recovery correct?",
+  "back": "The distance-dependent blur of the collimator, modeled inside iterative reconstruction. It can allow lower dose or shorter time."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What trigger point does ECG gating use to bin counts?",
+  "back": "The R wave. Counts are assigned to frames starting at each R wave."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "How many frames per cardiac cycle are standard, and what does 16 frames change?",
+  "back": "Eight is standard. Sixteen gives a more accurate ejection fraction and diastolic assessment but fewer counts per frame."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What is an R-R acceptance window?",
+  "back": "A range around the average R-R interval, commonly plus or minus 20 to 30 percent. A beat outside it is rejected as a bad beat."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What gating problem do frequent PVCs and atrial fibrillation cause?",
+  "back": "Variable R-R intervals starve the last frames of counts (end-diastolic dropout) and many rejected beats lengthen the study and lower counts."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What do you do when gating is poor because of arrhythmia?",
+  "back": "Review the rejection rate, widen the window moderately, or use list mode if available. If still poor, report perfusion and state that the ejection fraction is unreliable."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Calculate EF with EDV 120 mL and ESV 50 mL.",
+  "back": "Stroke volume is 70 mL, and 70 divided by 120 equals 0.583, so EF is about 58 percent."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Why can gated SPECT overestimate EF in a small heart?",
+  "back": "The coarse matrix underestimates small cavity volumes, which inflates the apparent EF."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What does the ramp filter do in filtered back projection?",
+  "back": "It removes the blur of simple back projection but amplifies high-frequency noise, so a low pass filter is added."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What is the Nyquist frequency in cycles per pixel?",
+  "back": "0.5 cycles per pixel, the highest spatial frequency the pixel grid can represent."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What happens when a Butterworth cutoff is set too low?",
+  "back": "Images are very smooth but resolution and defect contrast drop, so small or subtle defects may be blurred away."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What happens when a Butterworth cutoff is set too high?",
+  "back": "More detail is kept but more noise passes, so image noise rises, especially in low count studies."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Why can intense liver or bowel activity create an inferior wall defect with filtered back projection?",
+  "back": "The ramp filter produces negative lobes next to hot activity, lowering counts in the adjacent inferior wall. Iterative reconstruction handles this less severely."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What does OSEM stand for and why use subsets?",
+  "back": "Ordered subsets expectation maximization. Grouping projections into subsets speeds convergence compared with MLEM."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What is the problem with too many iterations in iterative reconstruction?",
+  "back": "Noise is amplified, which is why a post reconstruction smoothing filter is used."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Why can quantitative results from two different reconstruction settings not be compared?",
+  "back": "Noise texture and count behavior differ by method, so normal databases and thresholds must match the reconstruction used."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "How is the left ventricular long axis defined for reorientation?",
+  "back": "A line from the apex through the center of the mitral valve plane."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Which walls does the vertical long axis show, and which does the horizontal long axis show?",
+  "back": "Vertical long axis: anterior, apical and inferior walls. Horizontal long axis: septal, apical and lateral walls."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "A polar map shows an odd defect but the short axis stack looks normal. What should you check first?",
+  "back": "Reorientation and long axis placement. A wrong axis can create a false apical or opposite wall defect, so also check the mask and valve plane."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What is upward creep and when is it likely?",
+  "back": "Gradual rise of the heart in the chest as breathing settles, causing a vertical shift across the orbit. It is more likely when imaging starts too soon after exercise."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "How do you detect motion before reading a SPECT study?",
+  "back": "Review the raw projection cine and the sinogram or linogram. A step or discontinuity indicates motion."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What do you do about large patient motion?",
+  "back": "Repeat the acquisition. Software realignment fixes a small shift but cannot rescue large or complex movement."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What artifact does a nonuniform detector produce in SPECT, and what QC test finds it?",
+  "back": "A ring artifact, because the same defect appears in every projection. The daily flood field uniformity check finds it."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "In what order should you review a SPECT study to avoid missing an artifact source?",
+  "back": "Raw projections first (motion, extracardiac uptake, counts, gating), then slices, polar maps and quantitation, gated function, and CT registration last."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "How does an intrinsic flood differ from an extrinsic flood?",
+  "back": "Intrinsic: collimator removed, point source far from the crystal. Extrinsic: collimator on, uniform sheet or filled phantom on the collimator."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What does an extrinsic flood detect that an intrinsic flood cannot?",
+  "back": "Collimator damage, because only the extrinsic flood is acquired through the collimator."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "A flood shows a round cold spot about the size of one tube. What is the likely cause?",
+  "back": "A photomultiplier tube that has drifted low in gain or failed."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "A flood shows a thin linear cold line that cannot be retuned away. What is the likely cause?",
+  "back": "A cracked crystal, often from thermal shock; it cannot be repaired."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "A cold line appears on the extrinsic flood but not on the intrinsic flood. Where is the fault?",
+  "back": "In the collimator, not the crystal or electronics."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What energy window setup is used for Tc-99m peaking?",
+  "back": "Center on 140 keV with a window of about 15 to 20 percent."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "How far should a point source be from the crystal for an intrinsic flood?",
+  "back": "At least five times the largest dimension of the detector, so the photons arrive nearly uniformly."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Compute integral uniformity when the hottest pixel has 2,600 counts and the coldest 2,300.",
+  "back": "100 times (2,600 minus 2,300) divided by (2,600 plus 2,300) = 100 times 300 divided by 4,900 = 6.1 percent."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What does a center of rotation error look like in SPECT slices?",
+  "back": "A ring or tuning fork shape around point sources, with blurring of the myocardium."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What does the COR test acquire and fit?",
+  "back": "An off-center point source over a full orbit; its position in each projection is fit to a sine wave and the deviation is the error."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Which solid-state camera flood pattern replaces the PMT-out pattern?",
+  "back": "Bad pixels or detector modules, since CZT cameras have no photomultiplier tubes."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Which agency regulation covers dose calibrator and survey meter QC?",
+  "back": "The NRC, in 10 CFR 35.60 for dose calibrators and 35.61 for survey meters."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Does the NRC prescribe a specific daily camera flood test?",
+  "back": "No. Camera QC follows the manufacturer, society guidance, the accrediting body and facility procedures."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "How often is dose calibrator constancy tested and what is the tolerance?",
+  "back": "Every day of use, within 10 percent of the decay-corrected expected reading of a long-lived source such as Cs-137."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "How often is dose calibrator accuracy tested?",
+  "back": "At installation, annually and after repair, using at least two traceable sources of different energies, within 10 percent."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "How often is dose calibrator linearity tested and over what range?",
+  "back": "At installation, quarterly and after repair, from the highest activity used down to about 10 microcuries, within 10 percent."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "When is dose calibrator geometry tested?",
+  "back": "At installation and after relocation or repair, showing the reading does not depend on sample volume or position."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "A dose calibrator is moved to a new room. Which tests are repeated?",
+  "back": "Geometry and accuracy, in addition to the usual schedule."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Name two ways to test dose calibrator linearity.",
+  "back": "The decay method using Tc-99m measured over several days, or calibrated lead sleeves (attenuators)."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "The expected Cs-137 constancy reading is 198 microcuries and the measured value is 215. Does it pass?",
+  "back": "Difference 17 divided by 198 is 8.6 percent, within the 10 percent tolerance; it passes but warrants a repeat and a trend check."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "How often is a survey meter calibrated and what is the tolerance?",
+  "back": "At least annually and after repair, at two points on each scale, within 20 percent of the true value."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What daily test checks the Rb-82 generator?",
+  "back": "Elution testing for breakthrough of Sr-82 and Sr-85, because Sr-82 is bone seeking and adds dose without image value."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What are the label limits for Rb-82 generator breakthrough?",
+  "back": "0.02 microcurie Sr-82 and 0.2 microcurie Sr-85 per millicurie of Rb-82; reaching them retires the generator."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Why is PET scanner cross-calibration with the dose calibrator important?",
+  "back": "A calibration error carries directly into absolute flow values in mL per minute per g."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What does a daily PET blank scan reveal?",
+  "back": "A failed detector block, seen as a streak in the sinogram compared with baseline."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Compare Rb-82 and N-13 ammonia for spatial resolution and extraction.",
+  "back": "N-13 ammonia has a shorter positron range and better extraction at high flow, so better resolution; Rb-82 has a longer range and flow roll-off."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What are the half-lives of Rb-82, N-13 and F-18 flurpiridaz?",
+  "back": "Rb-82 about 76 seconds, N-13 about 10 minutes, flurpiridaz about 110 minutes."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Why can F-18 flurpiridaz be used without an on-site cyclotron and with exercise stress?",
+  "back": "Its half-life of about 110 minutes allows delivery and imaging after exercise."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "When does static Rb-82 imaging begin?",
+  "back": "After blood pool clearance, about 90 seconds after infusion start with a normal LVEF and later when LVEF is low."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "When should list mode acquisition start for PET flow quantification?",
+  "back": "At the time of tracer injection."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Define myocardial flow reserve and compute it for rest 0.9 and stress 2.1.",
+  "back": "Stress MBF divided by rest MBF; 2.1 divided by 0.9 is 2.33."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Rest MBF is 1.2 at RPP 12,000 and stress MBF is 1.8. What is the corrected MFR for RPP 10,000?",
+  "back": "Corrected rest is 1.2 times 10,000 divided by 12,000 = 1.0, so MFR is 1.8 divided by 1.0 = 1.8 (1.5 uncorrected)."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Why can a low MFR occur with a normal relative perfusion image?",
+  "back": "Relative images only compare regions with the best region, so balanced multivessel or microvascular disease can look normal while absolute flow reserve is low."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Name two nondisease reasons for a falsely low MFR.",
+  "back": "A high resting flow from high cardiac work, and a blunted stress response from inadequate vasodilation or caffeine."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "How are diabetic patients prepared for FDG viability imaging?",
+  "back": "Hyperinsulinemic euglycemic clamp, or titrated IV insulin with glucose, checking blood glucose before FDG."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What does FDG uptake with reduced perfusion mean?",
+  "back": "A mismatch, indicating hibernating viable myocardium; a match (both reduced) indicates scar."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "A defect appears only on CT attenuation-corrected images and the heart overlaps lung on the CT. What do you do?",
+  "back": "Suspect misregistration, realign the CT to the emission data and reprocess, comparing with uncorrected images."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "How does a heart projecting over lung on the CT change the corrected image?",
+  "back": "It is under-corrected, producing an artifactual anterior or lateral defect."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "How are Agatston density factors assigned?",
+  "back": "130 to 199 HU factor 1, 200 to 299 factor 2, 300 to 399 factor 3, 400 or more factor 4, multiplied by lesion area."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Compute an Agatston score: 6 mm squared at 180 HU, 10 mm squared at 320 HU, 4 mm squared at 450 HU.",
+  "back": "6 times 1 plus 10 times 3 plus 4 times 4 = 6 plus 30 plus 16 = 52."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "Why is the attenuation correction CT not used for an Agatston score?",
+  "back": "It is ungated, so motion makes calcium quantification unreliable; calcium needs a gated non-contrast CT."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "How is a patient prepared for cardiac sarcoid FDG imaging?",
+  "back": "High fat, low carbohydrate diet for at least 24 hours, then a fast of at least 4 to 12 hours, with optional IV heparin about 50 units per kg."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "How is cardiac Tc-99m PYP graded and which grades are positive?",
+  "back": "Heart versus rib: 0 none, 1 less than rib, 2 equal, 3 greater; grades 2 and 3 are positive, and SPECT is required."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What must be excluded after a positive PYP scan, and how?",
+  "back": "AL amyloid, using serum free light chains and serum and urine immunofixation; a monoclonal protein leads to biopsy."
+ },
+ {
+  "domain": "performance_of_imaging_tests_including_instrumentation_protocols_and_processing",
+  "front": "What are the I-123 MIBG preparation, imaging times and key ratio threshold?",
+  "back": "Thyroid blockade first; planar images at 15 minutes and 4 hours; a late heart to mediastinum ratio below 1.6 is abnormal."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the first step in reading any SPECT MPI study?",
+  "back": "Review the raw projection data (cine, sinogram) before the reconstructed slices. Raw review shows motion, attenuation, extracardiac activity and comparability."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "How does a sinogram display one slice of raw data?",
+  "back": "Projection angle runs on the vertical axis and detector position on the horizontal axis. A stationary point of activity traces a smooth sine wave."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "How does patient motion appear on a sinogram?",
+  "back": "As a break, kink or step in the otherwise smooth sine wave at the moment of motion. A vertical shift moves the whole band up or down."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does a linogram show?",
+  "back": "A redisplay in which stationary activity falls on a straight line. Motion shows as a break in the line."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What is upward creep?",
+  "back": "A progressive rise of the heart in the chest during acquisition as ventilation and the diaphragm settle after exercise. It creates artifactual defects."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "How do you prevent upward creep?",
+  "back": "Delay the start of imaging a few more minutes after exercise, or repeat the acquisition once the patient has settled. Cine shows the heart rising against a fixed background."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the typical pattern of breast attenuation?",
+  "back": "A fixed defect in the anterior wall and anterior septum, sometimes the apex, with normal thickening on gated images."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "A woman has a fixed anterior defect with normal wall thickening and a shadow on cine. What is the likely cause?",
+  "back": "Breast attenuation artifact. Normal gated thickening argues against infarct."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Why must breast position be the same on stress and rest?",
+  "back": "A shifted breast changes the attenuation shadow and can create an artifactual reversible defect that mimics ischemia."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "How can breast attenuation be reduced?",
+  "back": "Position or strap the breast away from the heart in the same way for both sets, and consider attenuation correction."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the typical pattern of diaphragm attenuation?",
+  "back": "Reduced counts in the inferior wall, more common in men and large patients, with normal inferior thickening on gating."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the best fix for a suspected diaphragm attenuation defect?",
+  "back": "Prone imaging, which moves the diaphragm and abdominal contents away from the inferior wall."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What artifact can prone imaging introduce?",
+  "back": "An artifactual anterior or anteroseptal defect from chest compression against the table. Interpret supine and prone together."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does upright imaging do compared with supine imaging?",
+  "back": "It lowers the diaphragm and can reduce inferior attenuation. Its role is similar to prone imaging."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Why are arms raised overhead during acquisition?",
+  "back": "It removes the arms from the lateral photon path and reduces attenuation. Arm position should match on stress and rest."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What causes the ramp filter artifact?",
+  "back": "Filtered back projection uses a ramp filter that makes negative lobes around intense activity. The adjacent wall is assigned too few counts."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "A bright bowel loop sits beside a dim inferior wall on a sestamibi study. What is the best next step?",
+  "back": "Have the patient drink water or wait for gut clearance, then reacquire. Do not report an inferior perfusion defect yet."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "How much water is given to help clear subdiaphragmatic activity?",
+  "back": "About one to two glasses (8 to 16 ounces), then wait and reimage. This helps empty the stomach and duodenum."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Roughly how long after injection is rest sestamibi imaging usually started?",
+  "back": "About 45 to 60 minutes. After exercise stress, about 15 to 30 minutes, with a longer wait after vasodilator stress."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Does low level exercise help during vasodilator stress?",
+  "back": "Yes. It reduces gut and liver activity compared with vasodilator stress alone."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Why does intense extracardiac activity cause problems besides the ramp filter?",
+  "back": "Scatter and overlap add apparent counts to the adjacent wall and can hide a true inferior defect."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "How does a large pericardial effusion look on raw cine?",
+  "back": "As a photopenic halo around the heart, and the heart may seem to swing. Correlate with echocardiography."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Which tracers can accumulate in soft tissue tumors?",
+  "back": "Thallium-201 and Tc-99m sestamibi can accumulate in some lung, breast, thyroid and lymphoma lesions. Report focal uptake and correlate with CT."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "How can a hiatal hernia mimic a cardiac abnormality?",
+  "back": "It lies behind the heart and can take up tracer, mimicking an inferior defect or hot area. Water and reimaging help separate stomach from myocardium."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does increased lung uptake of thallium after stress indicate?",
+  "back": "Raised left atrial and pulmonary capillary pressure, marking LV dysfunction, extensive coronary disease and worse prognosis."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What lung-to-heart ratio is abnormal on planar thallium imaging?",
+  "back": "A ratio above about 0.5 is considered abnormal."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the normal RV uptake relative to the LV?",
+  "back": "The RV is faint and clearly less intense than the LV."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does RV uptake equal to LV uptake suggest?",
+  "back": "Right ventricular hypertrophy from pulmonary hypertension or lung disease. A dilated RV with a flattened septum suggests overload."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "A small bright spot inside the LV cavity on slices is most likely what?",
+  "back": "Papillary muscle uptake, a normal finding that can mimic a defect or hot spot."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "List what must match between stress and rest sets.",
+  "back": "Patient and arm position, breast position, table height and orbit, and processing (orientation, filter, slices)."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What happens if stress and rest slices are reoriented at different angles?",
+  "back": "The slices do not match and a purely geometric stress to rest difference appears, especially at the apex, lateral and inferior walls. Reprocess both sets the same way."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "How does center of rotation error appear?",
+  "back": "A point source reconstructs as a ring or arc and the myocardium looks blurred or tuning-fork shaped. Suspect a quality control failure if many studies show it."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What is a limitation of filtered back projection?",
+  "back": "Streaks and ramp filter artifact near hot structures, with noise or blur depending on the filter cutoff."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does OSEM iterative reconstruction improve compared with filtered back projection?",
+  "back": "It reduces streaks and negative lobes, and with resolution recovery and scatter correction it improves contrast."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What artifact can attenuation correction create?",
+  "back": "Misregistration of the emission data and CT map causes artifactual anterior or lateral defects where the heart overlaps lung on the map. Check alignment."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Name signs of poor ECG gating.",
+  "back": "Irregular rhythm such as atrial fibrillation or frequent premature beats, variable heart rate, poor R wave triggering and low counts."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does the gating acceptance window do?",
+  "back": "It keeps only beats near the average R to R interval and rejects the rest. Too narrow loses counts, too wide blurs and tends to underestimate EF."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "How many frames per cycle are used in gated SPECT, and what is the tradeoff?",
+  "back": "Eight or 16 frames. Sixteen give a more accurate EF but need more counts per frame."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What should you do with EF from a poorly gated study?",
+  "back": "Do not rely on it. State the gating limitation and report perfusion."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Order the steps when deciding to repeat an image.",
+  "back": "Fix gut activity (water, wait), then position (prone, upright, strap), then motion (correct or reacquire), then processing and gating, and stop for camera faults."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "A study shows motion after correction and you used Tc-99m. What is the best action?",
+  "back": "Reacquire if the motion remains significant, since Tc-99m allows a repeat the same day. Do not report a doubtful defect."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Why is repeat imaging more limited with thallium?",
+  "back": "Thallium redistributes over time, so a later image reflects a different distribution than the initial one."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Calculate the fraction of Tc-99m activity remaining at 90 minutes (half life 360 minutes).",
+  "back": "0.5 to the power of 90 divided by 360, which is 0.5 to the power of 0.25, equal to 0.841 or about 84 percent."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "A patient had 8 mCi injected. How much remains at 90 minutes?",
+  "back": "8 times 0.841 is about 6.7 mCi (about 249 MBq). Waiting for clearance costs little count loss."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Which defect location is helped by prone imaging, and which can it create?",
+  "back": "It helps inferior attenuation defects and can create anterior defects from chest compression."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "How many segments are in the ASNC left ventricular model, and how are they distributed?",
+  "back": "17 segments: 6 basal, 6 mid, 4 distal, plus the apical cap as segment 17."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the 0 to 4 segment scoring scale?",
+  "back": "0 normal, 1 mildly reduced, 2 moderately reduced, 3 severely reduced, 4 absent uptake."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the maximum possible summed stress score?",
+  "back": "68, which is 17 segments multiplied by a top score of 4."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "How is the summed difference score calculated and what does it represent?",
+  "back": "SDS = SSS minus SRS. It measures the amount of reversible ischemia."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Stress scores sum to 11 and rest scores sum to 4. What are SDS and the percent ischemic myocardium?",
+  "back": "SDS = 11 - 4 = 7. Percent ischemic = 7 / 68 = about 10 percent."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What SSS ranges are commonly used for normal, mild, moderate and severe abnormality?",
+  "back": "0 to 3 normal, 4 to 8 mild, 9 to 13 moderate, above 13 severe."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Which wall and segments does the LAD usually supply?",
+  "back": "The anterior wall, anterior septum, apex and apical cap (segments 1, 2, 7, 8, 13, 14, 17)."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Which walls does the left circumflex usually supply in a right-dominant system?",
+  "back": "The anterolateral and inferolateral walls (segments 5, 6, 11, 12, 16)."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Which walls does the RCA usually supply?",
+  "back": "The inferior wall and inferoseptum (segments 3, 4, 9, 10, 15) in a right-dominant system."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "How is coronary dominance defined?",
+  "back": "By the artery that gives rise to the posterior descending artery. About 85 percent of people are right dominant."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "A patient is left dominant. Which artery most likely causes an inferior wall defect?",
+  "back": "The left circumflex, because it supplies the posterior descending territory in left dominance."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Why can a vessel not be named with certainty from a perfusion defect alone?",
+  "back": "Territories overlap and vary: the apex, basal inferolateral wall and distal LAD wrap-around differ between patients. The defect shows myocardium at risk."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What causes a small basal septal defect that is normal?",
+  "back": "The membranous septum is thin fibrous tissue and has fewer myocytes, so counts are lower there."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What is apical thinning on perfusion imaging?",
+  "back": "A normal fall-off in counts at the true apex, present at stress and rest, with normal thickening on gating."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "A fixed mild inferior defect with normal thickening in an obese man most likely represents what?",
+  "back": "Diaphragmatic attenuation. Normal wall thickening on gating favors artifact over scar."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Which walls are typically affected by breast attenuation?",
+  "back": "The anterior, anterolateral and anteroseptal walls, depending on breast position, which may differ between stress and rest."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Define a reversible perfusion defect.",
+  "back": "Reduced stress uptake that improves or normalizes at rest, indicating stress-induced ischemia."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does a fixed defect usually mean, and what else can it be?",
+  "back": "Usually scar. It can also be severe hibernation, attenuation or a technical issue, so check gating, attenuation correction or viability."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What is reverse redistribution?",
+  "back": "A rest image worse than the stress image, seen with a partly reperfused infarct, after thrombolysis or intervention, or as a technical artifact."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What is balanced ischemia?",
+  "back": "Severe three-vessel or left main disease reducing flow in all territories equally, so relative perfusion looks falsely normal."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What indirect clues suggest balanced ischemia on SPECT?",
+  "back": "TID, a fall in EF with stress, increased lung uptake, symptoms, marked ST depression and hypotension."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Which imaging approach best exposes balanced ischemia?",
+  "back": "PET with absolute myocardial blood flow and flow reserve, because it does not depend on relative uptake."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the typical false-positive pattern in left bundle branch block?",
+  "back": "A reversible septal or anteroseptal defect with normal LAD angiography, more likely with exercise than with vasodilator stress."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Which stress is preferred in LBBB or ventricular pacing, and why?",
+  "back": "Vasodilator stress, because the septal artifact is rate-related and less frequent without a heart rate rise."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "In LBBB, which finding favors true LAD disease rather than the LBBB artifact?",
+  "back": "A defect extending to the anterior wall or apex beyond the septum."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "How does attenuation correction help in reading an inferior defect?",
+  "back": "A defect that normalizes with correction and has normal thickening favors attenuation. A persistent defect with abnormal motion favors scar."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Why should uncorrected images be read alongside corrected images?",
+  "back": "They show true counts and typical attenuation patterns, and correction can add its own artifacts."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the most common cause of a false lateral defect on CT-corrected PET?",
+  "back": "Misregistration between the CT map and emission data, placing lateral myocardium over lung on the map."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the first action when an AC PET study shows an unexpected lateral defect?",
+  "back": "Check and, if needed, manually realign the CT attenuation map with the emission images before reporting."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Define transient ischemic dilation.",
+  "back": "The ratio of stress to rest LV cavity volume, elevated by diffuse subendocardial ischemia, a marker of severe extensive disease."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What are the approximate TID thresholds, and how should they be applied?",
+  "back": "About 1.2 for same-day Tc-99m and about 1.3 or higher with Tl-201 protocols. Use the laboratory and software threshold."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Does a normal relative perfusion pattern with a high TID exclude severe disease?",
+  "back": "No. It should raise concern for balanced ischemia from multivessel or left main disease."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the lung-heart ratio and its abnormal value on Tl-201?",
+  "back": "Lung to myocardial count ratio on anterior planar images. Above about 0.5 is abnormal, reflecting stress LV dysfunction and raised filling pressure."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the difference between hibernating and stunned myocardium?",
+  "back": "Hibernating is chronically underperfused but viable. Stunned is dysfunctional after transient ischemia although flow is restored."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What uptake level marks viability for Tl-201 or sestamibi?",
+  "back": "About 50 to 60 percent of peak uptake in the normal region."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Why is Tl-201 reinjection used?",
+  "back": "A small second dose after redistribution reveals viability in segments that look fixed."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Why does sestamibi underestimate viability, and how can accuracy improve?",
+  "back": "It does not redistribute, so low-flow viable segments look fixed. Giving nitrates before the rest injection improves detection."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Patient preparation for FDG viability imaging?",
+  "back": "Controlled metabolic state with an oral glucose load or hyperinsulinemic-euglycemic clamp so myocardium uses glucose."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does an FDG perfusion mismatch mean?",
+  "back": "Reduced perfusion with preserved FDG uptake is hibernating myocardium likely to recover after revascularization."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does a perfusion FDG match mean?",
+  "back": "Reduced perfusion and reduced FDG uptake indicate scar with little chance of functional recovery."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does high blood pool and little myocardial FDG uptake in a diabetic patient mean?",
+  "back": "A technically inadequate study from poor glucose control, not scar."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What did the STICH viability substudy teach?",
+  "back": "Viability testing did not identify patients who benefited differently from bypass surgery, so viability is one input, not an automatic indication."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What are the half lives of Rb-82, N-13 ammonia and F-18 flurpiridaz?",
+  "back": "Rb-82 about 76 seconds, N-13 ammonia about 10 minutes, flurpiridaz about 110 minutes."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "How is myocardial flow reserve calculated?",
+  "back": "MFR = stress MBF divided by rest MBF. Rest 0.8 and stress 1.6 mL/min/g gives 2.0."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What MFR values are generally considered abnormal?",
+  "back": "Below about 2.0 is reduced and below about 1.5 markedly reduced, with laboratory variation."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "How can high resting blood flow distort MFR?",
+  "back": "A high rate-pressure product raises rest MBF and lowers MFR falsely, so correct rest flow when your laboratory does so."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does a globally reduced MFR with a normal relative map suggest?",
+  "back": "Multivessel disease or microvascular dysfunction, with a worse prognosis."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "How does hypertrophic cardiomyopathy affect perfusion images?",
+  "back": "Asymmetric septal hypertrophy gives high septal counts and a relatively low lateral wall, causing false defects. A small cavity inflates gated EF."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "How does a dilated cardiomyopathy complicate interpretation?",
+  "back": "The thin dilated ventricle gives uneven or patchy counts that resemble scar. Territorial defects favor ischemic disease."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What four properties describe every perfusion defect in a report?",
+  "back": "Location, extent, severity and reversibility."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "How is LVEF calculated from volumes?",
+  "back": "LVEF = (EDV minus ESV) divided by EDV, times 100. If EDV is 140 mL and ESV is 70 mL, stroke volume is 70 mL and EF is 50 percent."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "EDV 95 mL and ESV 35 mL. What is the EF?",
+  "back": "Stroke volume is 60 mL and EF is 60 divided by 95, about 63 percent."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Which volume is the stronger prognostic predictor, EDV or ESV?",
+  "back": "ESV, because it reflects systolic failure directly. A larger ESV and a lower EF both predict worse outcome."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "How many frames per R-R cycle are typical for gated SPECT, and what does 16 frames improve?",
+  "back": "Eight is the long-standing default. Sixteen frames sample the curve better, especially in small hearts and at fast rates, because 8 frames blur end-systole and underestimate the smallest volume."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does the beat acceptance window do?",
+  "back": "It accepts only beats whose R-R length falls within a set range, often 20 percent around the average, and rejects the rest."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Why should serial gated studies use the same software and frame number?",
+  "back": "Programs and frame counts give different EF and volume values, so a change may reflect the method, not the patient."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Which SPECT tracers give the best gated function, and why is thallium poor for it?",
+  "back": "Tc-99m sestamibi and tetrofosmin, because of high counts. Thallium-201 has low counts and low-energy photons, so gating is unreliable."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What advantage does gated PET have for stunning?",
+  "back": "PET acquires during stress, so it can show LVEF at peak stress. A stress EF that fails to rise by at least 5 points, or falls, suggests severe multivessel disease."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the normal LVEF response from rest to stress on PET?",
+  "back": "A rise of at least 5 points. A fall points to severe, usually multivessel, disease."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the difference between wall motion and wall thickening?",
+  "back": "Motion is inward movement of the endocardial border in systole. Thickening is the increase in wall thickness, seen as a brightening of counts through partial volume effect."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "State the 5-point wall motion scale.",
+  "back": "0 normal, 1 mild hypokinesis, 2 moderate hypokinesis, 3 severe hypokinesis, 4 akinesis, 5 dyskinesis."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does dyskinesis mean?",
+  "back": "Paradoxical outward movement of a wall segment during systole, as in an aneurysm."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "A fixed perfusion defect with normal motion and normal thickening is most likely what?",
+  "back": "Attenuation artifact (breast or diaphragm), not transmural scar."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "A fixed defect with akinesis and no thickening suggests what?",
+  "back": "Infarct, most likely transmural, with thin nonthickening wall."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What is expected at rest in a reversible stress defect without prior infarct?",
+  "back": "Normal rest wall motion, because the myocardium was not injured."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Why does LBBB or RV pacing not prove scar when septal motion is abnormal?",
+  "back": "They cause abnormal septal motion with preserved septal thickening, so the segment is not scar."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Which is the better guide to viable muscle, motion or thickening?",
+  "back": "Thickening. Motion can be paradoxical after bypass surgery, with LBBB, or with pacing while thickening stays normal."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Define post-stress stunning.",
+  "back": "Post-stress LVEF or regional function worse than at rest despite viable myocardium, from delayed recovery after severe ischemia."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What EF change from rest to post-stress suggests severe extensive ischemia?",
+  "back": "A fall of 5 points or more (some laboratories use 5 to 10), suggesting left main or multivessel disease."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Why is stunning more common after exercise than after vasodilator stress?",
+  "back": "Exercise causes more true ischemia, and vasodilator stress causes less, so stunning when seen after vasodilator is a stronger signal."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "A normal-looking perfusion study shows a post-stress EF drop. What do you suspect?",
+  "back": "Balanced multivessel ischemia, because uptake falls evenly and relative perfusion looks normal."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Why is EF overestimated in a small heart?",
+  "back": "The cavity is near camera resolution, so end-systolic volume is underestimated and EF is overestimated, sometimes by 10 points or more."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Name two settings that produce a small heart with an overestimated EF.",
+  "back": "Hypertrophic cardiomyopathy or marked concentric LV hypertrophy, and small female hearts with EDV below about 70 mL."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "How should a high EF in a small heart be reported?",
+  "back": "With a caveat about overestimation, and recommend echocardiography or MRI if the EF matters."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What effect do low counts have on gated EF?",
+  "back": "Edge detection fails and end-systolic volume is hard to trace, so EF becomes unreliable."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Which patient factor gives a false low EF when a very large perfusion defect is present?",
+  "back": "Software edges may run through a zero-count region, so contour error can lower the EF."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does atrial fibrillation do to gated SPECT?",
+  "back": "Variable R-R lengths blur end-systole and cause many rejected beats, lowering counts and EF accuracy."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "How do you judge whether gating was valid?",
+  "back": "Check rejected beats and the beat-length histogram, a smooth time-volume curve with a minimum at about 30 to 40 percent of the R-R, and contours on the endocardium."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What should be done when gating is poor?",
+  "back": "State it in the report and qualify or omit the EF. Do not call wall motion normal."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Why is RV EF unreliable on standard gated perfusion SPECT?",
+  "back": "The RV is thin and crescent shaped, so it cannot be measured reliably. Use first-pass, MUGA, echocardiography or MRI."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the approximate lower limit of normal RVEF by radionuclide methods?",
+  "back": "About 40 percent."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does MUGA image, and why does that matter for EF?",
+  "back": "The blood pool. LV counts are proportional to volume, so EF comes from counts without geometric assumptions."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Which labeling method gives the highest red cell labeling efficiency?",
+  "back": "In vitro kit labeling such as UltraTag, above 95 percent. Modified in vivo is about 85 percent and in vivo about 75 to 80 percent."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does a bright stomach and thyroid on MUGA indicate?",
+  "back": "Poor red cell labeling with free pertechnetate."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What is a typical Tc-99m dose for MUGA?",
+  "back": "About 20 to 30 mCi (740 to 1,110 MBq)."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Which MUGA view is used to calculate LVEF?",
+  "back": "The best septal LAO view, about 30 to 45 degrees, with the septum vertical and LV and RV separated, often with caudal tilt."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Name the three standard MUGA views.",
+  "back": "Anterior, best septal LAO, and left lateral or left posterior oblique."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Write the MUGA EF formula.",
+  "back": "EF = (ED net counts minus ES net counts) divided by ED net counts, with background subtracted."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "ED counts 120,000, ES counts 60,000, background 20,000. EF with background correction?",
+  "back": "Net ED 100,000, net ES 40,000, EF is 60,000 divided by 100,000 = 60 percent. Without background it would read 50 percent."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What happens to MUGA EF if background is set too high?",
+  "back": "Over-subtraction lowers net end-systolic counts proportionally more, so EF is falsely raised."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Where should the MUGA background region not be placed?",
+  "back": "Over the spleen, left atrium or aorta, which gives falsely high background and a falsely high EF."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does phase analysis show?",
+  "back": "The timing (phase) and amplitude of contraction from the first Fourier harmonic of each pixel's time-activity curve, with a narrow histogram when contraction is synchronous."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does LBBB do to the phase histogram?",
+  "back": "Delays the LV, especially the lateral wall, and widens the histogram."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Does phase analysis select patients for cardiac resynchronization therapy?",
+  "back": "No. Guidelines use EF, QRS duration and QRS morphology, not phase analysis."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What EF change defines cardiotoxicity during chemotherapy?",
+  "back": "A fall of 10 points or more to below the lower limit of normal, about 50 to 53 percent."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Which test is standard for suspected cardiac sarcoidosis?",
+  "back": "F-18 FDG PET read together with a resting perfusion study."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "How is normal myocardial FDG uptake suppressed before a sarcoid scan?",
+  "back": "A high-fat, very low-carbohydrate diet for at least 24 hours followed by a fast of at least 12 hours, with or without heparin before FDG."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does normal perfusion with focal FDG uptake suggest in sarcoid?",
+  "back": "Early active inflammation before scar or microvascular compression has developed."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does a perfusion defect with FDG uptake in the same area mean?",
+  "back": "A mismatch pattern: active inflammation, often with compression of small vessels."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does a perfusion defect without FDG uptake mean in sarcoid?",
+  "back": "Scar, or burned-out disease."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "A sarcoid FDG scan shows diffuse uptake in the whole left ventricle. What is the usual cause?",
+  "back": "Failed suppression of normal glucose use from poor diet or fast, or diabetes. It should not be called sarcoid."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does a falling extent of FDG uptake on follow-up show in sarcoid?",
+  "back": "Response to immunosuppressive treatment."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Which tracer is used for ATTR cardiac amyloid imaging?",
+  "back": "Tc-99m pyrophosphate (PYP), 10 to 20 mCi (370 to 740 MBq)."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Why must SPECT be done for a PYP study?",
+  "back": "Planar images cannot separate myocardial uptake from blood pool activity. SPECT or SPECT/CT does."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "How are PYP visual grades defined?",
+  "back": "Grade 0 none, 1 less than rib, 2 equal to rib, 3 greater than rib with mild or absent rib uptake. Grade 2 or 3 is positive."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What 1-hour heart-to-contralateral ratio is abnormal on PYP?",
+  "back": "1.5 or greater."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What 3-hour heart-to-contralateral ratio is abnormal on PYP?",
+  "back": "1.3 or greater."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "A PYP heart region has 4,200 counts and the mirror region has 3,000. What is the ratio?",
+  "back": "4,200 divided by 3,000 = 1.4, which is abnormal on a 3-hour image and below the 1-hour cutoff."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "When can ATTR amyloid be diagnosed without biopsy?",
+  "back": "With SPECT-confirmed grade 2 or 3 PYP uptake and no monoclonal protein on serum free light chains and serum and urine immunofixation."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "PYP is positive and a monoclonal protein is present. What is the next step?",
+  "back": "Tissue biopsy to exclude AL amyloid, which needs different and urgent treatment."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Planar PYP looks positive, but SPECT shows only ventricular cavity activity. How do you read it?",
+  "back": "Negative for myocardial uptake. The planar finding was blood pool."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Name the main uses of FDG PET/CT in cardiac infection.",
+  "back": "Suspected cardiac device infection and prosthetic valve endocarditis when echo and cultures are not enough."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Why is early postoperative FDG uptake around a valve hard to interpret?",
+  "back": "Postoperative inflammation causes uptake, so timing and pattern matter. Focal intense uptake at the ring is more specific."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Which alternative to FDG is used for infection imaging?",
+  "back": "Autologous leukocytes labeled with Tc-99m HMPAO, acquired with SPECT/CT."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What is I-123 MIBG?",
+  "back": "A norepinephrine analog taken up and stored by sympathetic nerve terminals, used to assess cardiac sympathetic innervation."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What is the usual I-123 MIBG dose?",
+  "back": "About 10 mCi (370 MBq) intravenously."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Why is potassium iodide given before MIBG?",
+  "back": "To block thyroid uptake of free radioiodine."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "When are MIBG planar images acquired?",
+  "back": "Early at about 15 minutes and late at about 4 hours."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What is a normal late heart-to-mediastinum ratio on MIBG?",
+  "back": "About 2.2 or greater."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Which late H/M ratio is abnormal on MIBG?",
+  "back": "Below 1.6, which signals higher risk in heart failure."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Early MIBG heart count is 100 and mediastinum is 50. Late heart is 70 and mediastinum is 50. What are the H/M ratios?",
+  "back": "Early 100 divided by 50 = 2.0. Late 70 divided by 50 = 1.4, which is abnormal."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does increased MIBG washout mean?",
+  "back": "Increased sympathetic drive and a worse prognosis."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Which drugs interfere with MIBG uptake?",
+  "back": "Labetalol, tricyclic antidepressants and some sympathomimetics, so review the medication list."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What are the Agatston coronary calcium categories?",
+  "back": "0 none, 1 to 99 mild, 100 to 399 moderate, 400 or greater severe."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Can the attenuation correction CT be used for a calcium score?",
+  "back": "No. It is ungated and free-breathing. A separate gated noncontrast CT is needed."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "A patient has normal perfusion but CAC of 600. What should the report say?",
+  "back": "Perfusion is normal, plaque burden is high, and intensive preventive therapy is supported. Normal perfusion does not mean normal arteries."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does MPI measure that CAC does not?",
+  "back": "Flow-limiting disease. CAC measures anatomic plaque burden."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What are the summed stress score ranges?",
+  "back": "Below 4 normal, 4 to 8 mild, 9 to 13 moderate, above 13 severe."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "How is the summed difference score calculated?",
+  "back": "SSS minus SRS. It reflects ischemia."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does the summed rest score reflect?",
+  "back": "Scar or infarcted myocardium."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "SSS is 15 and SRS is 7. What are SDS and percent ischemic myocardium?",
+  "back": "SDS = 8. Percent = 8 divided by 68 = about 12 percent."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What annual event rate follows a normal perfusion study?",
+  "back": "Below 1 percent per year for cardiac death or infarction."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Which patients have a shorter warranty after a normal study?",
+  "back": "Diabetic patients, those with prior revascularization and those with high calcium score."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What ischemic burden suggested revascularization benefit in observational nuclear data?",
+  "back": "About 10 percent or more of the myocardium."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What did the ISCHEMIA trial find?",
+  "back": "In stable patients with moderate to severe ischemia, initial invasive strategy did not reduce death or MI compared with optimal medical therapy."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Calculate the Duke score for 9 minutes of exercise, 2 mm of ST depression and an angina index of 1.",
+  "back": "9 - (5 x 2) - (4 x 1) = -5, which falls in the intermediate risk group (-10 to +4)."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "A patient has a Duke treadmill score of -12. Which risk group is that?",
+  "back": "High risk, because the group is defined as -11 or lower; this usually points toward invasive evaluation rather than reassurance."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Exercise 10 minutes, ST 2 mm, nonlimiting angina (index 1). What is the Duke score?",
+  "back": "10 minus 10 minus 4 = minus 4, intermediate risk."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Which heart rate recovery is abnormal?",
+  "back": "A fall of 12 beats per minute or less in the first minute after exercise with an upright cool-down."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does a high TID ratio suggest?",
+  "back": "Severe, extensive ischemia, but cutoffs vary from about 1.2 to 1.4. Check technique when the perfusion is otherwise clean."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "An exercise study in a patient with LBBB shows an isolated septal defect. What is the best approach?",
+  "back": "Use a vasodilator for stress, and do not call the septal defect LAD ischemia without considering the LBBB artifact."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "When is preoperative stress imaging reasonable?",
+  "back": "In elevated risk surgery with poor or unknown functional capacity when the result would change management."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "Which vessel territories do the LAD and RCA supply on the 17-segment model?",
+  "back": "LAD: anterior, anteroseptal and apex. RCA: inferior and inferoseptal. The circumflex supplies the lateral wall."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What must you do for a critical result such as severe extensive ischemia?",
+  "back": "Contact the ordering clinician directly, state the finding and recommendation, and document who and when."
+ },
+ {
+  "domain": "interpretation_of_nuclear_cardiology_imaging_tests",
+  "front": "What does a complete nuclear cardiology report include beyond the perfusion findings?",
+  "back": "Indication, stress type, drugs and doses, symptoms, hemodynamics and ECG, radiopharmaceutical and dose, image quality, LVEF, TID and a final impression that answers the referring question."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "How many MBq are in 1 mCi?",
+  "back": "1 mCi equals 37 MBq. One Ci equals 37 GBq."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "How many rad equal 1 Gy, and how many rem equal 1 Sv?",
+  "back": "1 Gy equals 100 rad and 1 Sv equals 100 rem. So 1 mSv equals 100 mrem."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "Which dose quantity lets you compare a Tl-201 study with a chest CT?",
+  "back": "Effective dose, the sum of organ equivalent doses times tissue weighting factors."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What is the radiation weighting factor for photons and positrons versus alpha particles?",
+  "back": "Photons and positrons are 1, so Gy equals Sv numerically. Alpha particles are 20."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "Give the physical half lives of Tc-99m, Tl-201 and F-18.",
+  "back": "Tc-99m is 6.0 hours, Tl-201 is 73 hours and F-18 is 110 minutes."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "Give the half lives of Rb-82 and N-13.",
+  "back": "Rb-82 is about 76 seconds and N-13 is about 10 minutes."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "How do you compute remaining activity after time t?",
+  "back": "A = A0 x 0.5 raised to (t divided by half life). For Tc-99m, 30 mCi after 6 hours is about 15 mCi."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "You need 25 mCi of Tc-99m at 11:00 and the vial was assayed at 07:00. What was the 07:00 activity needed?",
+  "back": "The decay factor over 4 hours is 0.630, so 25 divided by 0.630 is about 39.7 mCi."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "How do you combine physical and biological half lives?",
+  "back": "1/Teff = 1/Tphysical + 1/Tbiological. The effective half life is shorter than either one."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What is a half value layer?",
+  "back": "The thickness of material that reduces beam intensity by half. For Tc-99m 140 keV photons in lead it is about 0.27 mm."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What fraction of Tc-99m photons passes through 1 mm of lead?",
+  "back": "1 mm is about 3.7 HVLs, so transmission is 0.5^3.7, about 8 percent."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "Why is shielding PET harder than shielding Tc-99m SPECT?",
+  "back": "The 511 keV annihilation photons have a lead HVL near 4 mm, so tungsten shields and distance are used."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "A source reads 5 mR/h at 0.5 m. What is the reading at 2 m?",
+  "back": "The inverse square law gives 5 x (0.5/2)^2, about 0.31 mR/h."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What happens to exposure when you double your distance from a point source?",
+  "back": "It falls to one quarter, because exposure varies as 1 divided by distance squared."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "Define stochastic effects of radiation.",
+  "back": "Cancer and heritable effects whose probability rises with dose, whose severity does not, and which are assumed to have no threshold."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "Define deterministic effects and give an example threshold.",
+  "back": "Tissue reactions with a threshold whose severity rises with dose, such as skin erythema above about 2 Gy. They do not occur at diagnostic imaging doses."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What is the approximate effective dose of a one day rest and stress Tc-99m sestamibi study?",
+  "back": "About 10 to 12 mSv."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What is the approximate effective dose of an N-13 ammonia rest and stress PET study?",
+  "back": "About 2 mSv."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "About what effective dose does a Rb-82 rest and stress study give?",
+  "back": "About 2 to 4 mSv total."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "Roughly how does Tl-201 stress and redistribution dose compare with Tc-99m agents?",
+  "back": "It is higher, roughly in the high teens to 20s of mSv at 3 mCi, so it is rarely the dose lowering choice."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "Calculate the effective dose for 370 MBq rest and 1,110 MBq stress Tc-99m using 0.0090 and 0.0079 mSv per MBq.",
+  "back": "Rest is 3.3 mSv and stress is 8.8 mSv, totaling about 12.1 mSv."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What is the NRC annual total effective dose limit for an adult radiation worker?",
+  "back": "5 rem (50 mSv) per year."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What are the NRC annual limits for the lens of the eye and for skin or extremities?",
+  "back": "Lens is 15 rem (150 mSv) and skin or extremities is 50 rem (500 mSv)."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What are the NRC dose limits for members of the public?",
+  "back": "0.1 rem (1 mSv) per year, and no more than 2 mrem (0.02 mSv) in any one hour in an unrestricted area."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What dose limit applies to the embryo or fetus of a declared pregnant worker?",
+  "back": "0.5 rem (5 mSv) for the entire pregnancy, spread evenly, about 0.05 rem (0.5 mSv) or less in a month."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "When does a worker become a declared pregnant worker?",
+  "back": "Only after she tells her employer in writing and gives the estimated date of conception."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "Is there a dose limit for a patient receiving a medically justified nuclear study?",
+  "back": "No. The study is justified by the physician and ALARA still applies."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What are the three ALARA tools?",
+  "back": "Time, distance and shielding."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What do you do first when a radioactive liquid spill occurs?",
+  "back": "Warn others, confine the area, notify the radiation safety officer, then clean from the outside edge inward and survey."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "How should contaminated skin be decontaminated?",
+  "back": "Wash with mild soap and lukewarm water without abrasive scrubbing, then survey."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What is the Mo-99 breakthrough limit for Tc-99m eluate?",
+  "back": "0.15 microcurie of Mo-99 per millicurie of Tc-99m (0.15 kBq per MBq) at administration."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What is the aluminum breakthrough limit in generator eluate?",
+  "back": "10 micrograms per mL."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "How often are dose calibrator constancy, linearity and accuracy tested?",
+  "back": "Constancy daily, linearity quarterly and accuracy annually (also after repair)."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "When can short lived waste be discarded as ordinary waste?",
+  "back": "After decay in storage for at least 10 half lives with a survey to background; for Tc-99m that is about 60 hours."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What do you tell a woman about breast feeding after Tl-201?",
+  "back": "Interrupt breast feeding for about 2 weeks and check current NRC Regulatory Guide 8.39 and facility policy."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What written advice is given to a patient after imaging?",
+  "back": "A card with the radiopharmaceutical, date and activity, since radiation monitors at borders may detect it for days to weeks."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What contact advice is given to patients after a nuclear scan?",
+  "back": "Avoid prolonged close contact with infants under 1 year and pregnant women for the interval set by policy, and flush the toilet twice."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "A diagnostic wrong patient dose error occurs. What do you do?",
+  "back": "Assess the patient, document, notify the supervising physician, the RSO and referring clinician, and inform the patient; most are not NRC medical events."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "When must an NRC reportable medical event be reported by phone and in writing?",
+  "back": "By phone by the next calendar day and in writing within 15 days, with the patient informed within 24 hours."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "Who is responsible for the overall radiation safety program under the license, and who for clinical use?",
+  "back": "The RSO oversees the program, and the authorized user (physician) is responsible for clinical use and supervision of technologists."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "Within what time must a received radioactive package be surveyed?",
+  "back": "Within 3 hours of receipt during normal working hours, or within 3 hours of the start of the next working day if it arrives after hours (10 CFR 20.1906)."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What package dose rates trigger action on receipt?",
+  "back": "200 mrem per hour (2 mSv per hour) at the surface or 10 mrem per hour (0.1 mSv per hour) at 1 meter. Notify the radiation safety officer, and the NRC when the limits are exceeded."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "How often are meter surveys and wipe tests done in the hot lab?",
+  "back": "A meter survey at the end of each day of use and weekly wipe tests where unsealed material is prepared, given or stored (10 CFR 35.70)."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "How long is short lived waste held for decay in storage?",
+  "back": "At least 10 half-lives, then a surface survey must show no reading distinguishable from background and the result is logged. For Tc-99m this is about 60 hours."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What is the half-life of Mo-99 and what fraction of its decays feed Tc-99m?",
+  "back": "About 66 hours, and about 88 percent of decays go through the Tc-99m branch."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "When does Tc-99m activity peak after a generator elution?",
+  "back": "At about 23 hours (transient equilibrium). Waiting longer gains no more Tc-99m, so daily elution gives the most activity."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What is the NRC limit for Mo-99 breakthrough in Tc-99m eluate?",
+  "back": "0.15 microcuries of Mo-99 per millicurie of Tc-99m (0.15 kBq per MBq) at the time of administration."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "How is Mo-99 breakthrough measured in the dose calibrator?",
+  "back": "Put the vial in a lead shield about 6 mm thick. It stops the 140 keV Tc-99m photon and passes the 740 and 778 keV Mo-99 photons."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "An eluate has 0.10 microcuries of Mo-99 per millicurie at elution. What is the ratio 6 hours later?",
+  "back": "About 0.188 microcuries per millicurie: Tc-99m falls to 0.50 while Mo-99 falls only to 0.939, so 0.10 x 0.939 / 0.50. It fails the 0.15 limit."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What aluminum ion limit applies to generator eluate?",
+  "back": "10 micrograms per milliliter (USP limit). Excess aluminum interferes with labeling and clumps sulfur colloid."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What radiochemical purity is required for sestamibi and tetrofosmin?",
+  "back": "90 percent or more, checked by thin layer chromatography with the kit's own method."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What are the radiochemical impurities of Tc-99m kits?",
+  "back": "Free pertechnetate and reduced hydrolyzed technetium, an insoluble colloid trapped in the liver."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "A kit fails the radiochemical purity test. What do you do?",
+  "back": "Discard it and prepare a new kit. Do not inject a different amount of the failed preparation."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What is the formula for decay correction?",
+  "back": "A = A0 x 2 to the minus (t divided by half-life), with t and half-life in the same units."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "Give the half-lives of Tc-99m, Tl-201, F-18, N-13 and Rb-82.",
+  "back": "Tc-99m 6.02 hours, Tl-201 73 hours, F-18 109.8 minutes, N-13 9.97 minutes, Rb-82 about 76 seconds."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "Eluate is 10 mCi per mL at 08:00. What volume gives 10 mCi at 11:00?",
+  "back": "After 3 hours the factor is 0.708, so concentration is 7.08 mCi per mL and the volume is 1.41 mL."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What activity remains from 10 mCi of F-18 FDG after 140 minutes?",
+  "back": "140 / 109.8 = 1.275 half-lives, factor 0.4132, so 4.13 mCi remains."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What fraction of Rb-82 activity remains after 7.5 minutes?",
+  "back": "About six half-lives have passed, so 1/64, about 1.6 percent."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "How often is dose calibrator constancy tested and what is it?",
+  "back": "Daily, with a long lived source such as Cs-137 or Co-57; the reading must agree with the expected value within 5 percent."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What are the other dose calibrator tests and their frequency?",
+  "back": "Linearity quarterly, accuracy annually, and geometry at installation or after repair (10 CFR 35.60)."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What parent and contaminants are tested in an Rb-82 generator?",
+  "back": "Sr-82 and Sr-85, which are bone seekers; the generator parent is Sr-82 (half-life 25.5 days)."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What are the NRC limits for Rb-82 generator eluate?",
+  "back": "0.02 microcuries of Sr-82 and 0.2 microcuries of Sr-85 per millicurie of Rb-82."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What do you do when an Rb-82 eluate exceeds the strontium limit?",
+  "back": "Stop using the generator, notify the manufacturer and the radiation safety officer, and follow label directions for patient follow up."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "Describe the in vivo RBC labeling method for MUGA.",
+  "back": "Inject stannous pyrophosphate, wait 15 to 20 minutes, then inject 20 to 25 mCi of Tc-99m pertechnetate. Efficiency is about 75 to 80 percent."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "Describe the modified in vivo RBC labeling method.",
+  "back": "Inject stannous pyrophosphate, wait about 20 minutes, draw 3 to 5 mL of blood into a syringe with pertechnetate, incubate about 10 minutes and reinject. Efficiency is about 85 to 90 percent."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "Which RBC labeling method gives the highest efficiency and why?",
+  "back": "The in vitro kit method (over 95 percent); a hypochlorite step oxidizes extracellular tin so only the cell reduces the pertechnetate."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "A MUGA shows thyroid, salivary and stomach activity. What is the cause?",
+  "back": "Free pertechnetate from poor red cell labeling, not a cardiac finding. Consider interfering drugs or a stannous problem."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "Name drugs that can reduce RBC labeling efficiency.",
+  "back": "Heparin, doxorubicin, hydralazine, digoxin and iodinated contrast."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "Which administrations fall under the NRC medical event definition?",
+  "back": "Those requiring a written directive that deliver a dose differing by more than 20 percent plus a dose threshold, or wrong drug, route or patient with that threshold (10 CFR 35.3045)."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What dose thresholds apply to an NRC medical event?",
+  "back": "Effective dose over 0.05 Sv (5 rem) or dose to an organ or tissue over 0.5 Sv (50 rem)."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "Is a wrong dose of Tc-99m sestamibi an NRC medical event?",
+  "back": "Generally no, because diagnostic doses do not require a written directive. It is still a misadministration to document, review and report per state and institutional rules."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "Who is notified first after a wrong patient injection?",
+  "back": "The supervising physician and the radiation safety officer, then the referring physician and the patient."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What notice times apply to an NRC medical event?",
+  "back": "Referring physician and patient within 24 hours, NRC by telephone by the next calendar day, and a written report within 15 days."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "When must a fetal or nursing child dose be reported to the NRC?",
+  "back": "By the next calendar day when an embryo or fetus gets over 50 mSv (5 rem), or a nursing child gets an unintended dose over 5 mSv (0.5 rem) or the mother must stop nursing."
+ },
+ {
+  "domain": "radiation_safety_and_management_of_radiopharmaceuticals",
+  "front": "What are the annual occupational and public dose limits?",
+  "back": "Worker 50 mSv (5 rem), lens 150 mSv, skin and extremities 500 mSv, declared pregnant worker 5 mSv over the pregnancy, public 1 mSv (0.1 rem)."
+ }
+]
